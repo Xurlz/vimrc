@@ -46,6 +46,7 @@ set nu
 set tabstop=2
 set expandtab
 set shiftwidth=2
+set autoread
 
 call plug#begin()
 Plug 'justinmk/vim-sneak'

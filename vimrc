@@ -49,6 +49,8 @@ set shiftwidth=2
 set autoread
 
 call plug#begin()
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-sneak'
 Plug 'erietz/vim-terminator', { 'branch': 'main' }
 Plug 'preservim/nerdtree'
@@ -60,4 +62,8 @@ Plug 'tpope/vim-commentary'
 call plug#end()
 
 nnoremap <C-n> :NERDTreeToggle<cr>
+nnoremap <C-p> :Commands<cr>
+nnoremap <F1> :Commands<cr>
+nnoremap <leader>o :Files<cr>
+nnoremap <leader>e :Buffers<cr>
 

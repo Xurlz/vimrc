@@ -49,6 +49,7 @@ set shiftwidth=2
 set autoread
 
 call plug#begin()
+Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-sneak'

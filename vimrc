@@ -59,11 +59,6 @@ Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
 Plug 'vim-scripts/ZoomWin'
-" Plug 'erietz/vim-terminator', { 'branch': 'main' }
-" Plug 'junegunn/fzf.vim'
-" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Plug 'universal-ctags/ctags'
-" Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 nnoremap <C-n> :NERDTreeToggle<cr>

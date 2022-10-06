@@ -47,24 +47,23 @@ set tabstop=2
 set expandtab
 set shiftwidth=2
 set autoread
+set noruler
+set nowrapscan
+set scrolloff=1
 
 call plug#begin()
 Plug 'easymotion/vim-easymotion'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-sneak'
-Plug 'erietz/vim-terminator', { 'branch': 'main' }
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
+" Plug 'erietz/vim-terminator', { 'branch': 'main' }
+" Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'universal-ctags/ctags'
 " Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 nnoremap <C-n> :NERDTreeToggle<cr>
-nnoremap <C-p> :Commands<cr>
-nnoremap <F1> :Commands<cr>
-nnoremap <leader>o :Files<cr>
-nnoremap <leader>e :Buffers<cr>
 

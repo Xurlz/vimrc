@@ -62,4 +62,5 @@ Plug 'vim-scripts/ZoomWin'
 call plug#end()
 
 nnoremap <C-n> :NERDTreeToggle<cr>
+map <Leader> <Plug>(easymotion-prefix)
 

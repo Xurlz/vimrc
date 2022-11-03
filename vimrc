@@ -47,7 +47,7 @@ set tabstop=2
 set expandtab
 set shiftwidth=2
 set autoread
-set noruler
+set ruler
 set nowrapscan
 set scrolloff=1
 

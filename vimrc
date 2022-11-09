@@ -46,10 +46,10 @@ set nu
 set tabstop=2
 set expandtab
 set shiftwidth=2
-set autoread
 set ruler
 set nowrapscan
 set scrolloff=1
+set mouse=a
 
 call plug#begin()
 Plug 'easymotion/vim-easymotion'

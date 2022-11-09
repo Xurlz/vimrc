@@ -50,6 +50,7 @@ set ruler
 set nowrapscan
 set scrolloff=1
 set mouse=a
+set encoding=utf-8
 
 call plug#begin()
 Plug 'easymotion/vim-easymotion'

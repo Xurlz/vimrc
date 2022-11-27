@@ -51,6 +51,7 @@ set nowrapscan
 set scrolloff=1
 set mouse=a
 set encoding=utf-8
+set textwidth=64
 
 call plug#begin()
 Plug 'easymotion/vim-easymotion'
@@ -59,7 +60,6 @@ Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
-Plug 'vim-scripts/ZoomWin'
 call plug#end()
 
 nnoremap <C-n> :NERDTreeToggle<cr>

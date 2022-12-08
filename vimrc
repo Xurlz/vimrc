@@ -55,7 +55,6 @@ set textwidth=64
 
 call plug#begin()
 Plug 'easymotion/vim-easymotion'
-Plug 'justinmk/vim-sneak'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'

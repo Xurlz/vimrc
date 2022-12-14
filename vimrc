@@ -54,6 +54,7 @@ set encoding=utf-8
 set textwidth=64
 
 call plug#begin()
+Plug 'preservim/vim-markdown'
 Plug 'easymotion/vim-easymotion'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'

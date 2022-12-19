@@ -47,7 +47,7 @@ set tabstop=2
 set expandtab
 set shiftwidth=2
 set ruler
-set nowrapscan
+set wrapscan
 set scrolloff=1
 set mouse=a
 set encoding=utf-8

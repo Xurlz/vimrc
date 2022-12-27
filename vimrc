@@ -55,7 +55,7 @@ set textwidth=64
 
 call plug#begin()
 Plug 'vim-scripts/ReplaceWithRegister'
-Plug 'vim-vdebug/vdebug'
+" Plug 'vim-vdebug/vdebug'
 Plug 'preservim/vim-markdown'
 Plug 'easymotion/vim-easymotion'
 Plug 'preservim/nerdtree'
@@ -63,9 +63,6 @@ Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
 call plug#end()
-
-# Para driblar a sobrescrita ao EasyMotion
-vunmap \e
 
 nnoremap <C-n> :NERDTreeToggle<cr>
 map <Leader> <Plug>(easymotion-prefix)

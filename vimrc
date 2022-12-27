@@ -64,6 +64,9 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
 call plug#end()
 
+# Para driblar a sobrescrita ao EasyMotion
+vunmap \e
+
 nnoremap <C-n> :NERDTreeToggle<cr>
 map <Leader> <Plug>(easymotion-prefix)
 nnoremap \\\phpunit iuse PHPUnit\Framework\TestCase;class FooTest extends TestCase{function test(){}}<Esc>

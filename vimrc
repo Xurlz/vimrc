@@ -64,6 +64,7 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
 call plug#end()
 
+nnoremap <Leader><Leader><Leader>errors oini_set('display_errors','1');<Esc>
 nnoremap <C-n> :NERDTreeToggle<cr>
 map <Leader> <Plug>(easymotion-prefix)
 nnoremap \\\phpunit iuse PHPUnit\Framework\TestCase;class FooTest extends TestCase{function test(){}}<Esc>

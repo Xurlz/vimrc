@@ -54,6 +54,7 @@ set encoding=utf-8
 set textwidth=64
 
 call plug#begin()
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-scripts/ReplaceWithRegister'
 " Plug 'vim-vdebug/vdebug'
 Plug 'preservim/vim-markdown'

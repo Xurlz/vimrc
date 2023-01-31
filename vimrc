@@ -42,6 +42,8 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
+set ignorecase
+set smartcase
 set nu
 set tabstop=2
 set expandtab

@@ -4,4 +4,5 @@
 - [x] ~~Autoinstalação `vim-plug`~~
 - [ ] Instruções/documentação
 - [ ] `vimplug-install.sh` silencioso
+- [ ] Compatibilidade Windows
 

@@ -56,6 +56,7 @@ set encoding=utf-8
 set textwidth=64
 
 call plug#begin()
+Plug 'zenbro/mirror.vim', {'tag': 'v1.3.0'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-scripts/ReplaceWithRegister'
 " Plug 'vim-vdebug/vdebug'

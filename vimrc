@@ -75,4 +75,6 @@ nnoremap \\\phpunit iuse PHPUnit\Framework\TestCase;class FooTest extends Test
 nnoremap \\\fun ifunction foo(){return;}<Esc>kke
 nnoremap \\\class iclass Foo{}<Esc>h
 nnoremap \\\json :.!python3 -m json.tool<cr>
+" Precisa ter o módulo python xmlformatter instalado
+nnoremap \\\xml :s/\\"/"/ge<cr>:s/\\n//ge<cr>:.!xmlformat -<cr>
 

@@ -74,4 +74,5 @@ map <Leader> <Plug>(easymotion-prefix)
 nnoremap \\\phpunit iuse PHPUnit\Framework\TestCase;class FooTest extends TestCase{function test(){}}<Esc>
 nnoremap \\\fun ifunction foo(){return;}<Esc>kke
 nnoremap \\\class iclass Foo{}<Esc>h
+nnoremap \\\json :.!python3 -m json.tool<cr>
 

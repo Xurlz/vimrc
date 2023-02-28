@@ -53,7 +53,6 @@ set wrapscan
 set scrolloff=1
 set mouse=a
 set encoding=utf-8
-set textwidth=64
 
 call plug#begin()
 Plug 'zenbro/mirror.vim', {'tag': 'v1.3.0'}

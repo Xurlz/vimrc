@@ -55,11 +55,12 @@ set mouse=a
 set encoding=utf-8
 
 call plug#begin()
+Plug 'nicwest/vim-http',
 Plug 'zenbro/mirror.vim', {'tag': 'v1.3.0'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-scripts/ReplaceWithRegister'
 " Plug 'vim-vdebug/vdebug'
-Plug 'preservim/vim-markdown'
+" Plug 'preservim/vim-markdown'
 Plug 'easymotion/vim-easymotion'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'

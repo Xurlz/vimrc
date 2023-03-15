@@ -55,6 +55,7 @@ set mouse=a
 set encoding=utf-8
 
 call plug#begin()
+Plug 'tpope/vim-obsession'
 Plug 'AndrewRadev/undoquit.vim', {'tag': 'v0.1.0'}
 Plug 'nicwest/vim-http',
 Plug 'zenbro/mirror.vim', {'tag': 'v1.3.0'}

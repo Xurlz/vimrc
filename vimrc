@@ -42,8 +42,6 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
-colorscheme solarized
-set background=dark
 set ignorecase
 set smartcase
 set nu
@@ -72,6 +70,9 @@ Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
 call plug#end()
+
+colorscheme solarized
+set background=dark
 
 nnoremap \\\scratch :set buftype=nofile<cr>
 nnoremap <Leader><Leader><Leader>errors oini_set('display_errors','1');<Esc>

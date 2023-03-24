@@ -42,6 +42,8 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
+colorscheme solarized
+set background=dark
 set ignorecase
 set smartcase
 set nu

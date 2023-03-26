@@ -71,8 +71,10 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
 call plug#end()
 
+let g:solarized_termcolors=256
 colorscheme solarized
 set background=dark
+
 
 nnoremap \\\scratch :set buftype=nofile<cr>
 nnoremap <Leader><Leader><Leader>errors oini_set('display_errors','1');<Esc>

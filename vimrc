@@ -74,14 +74,15 @@ call plug#end()
 colorscheme solarized
 set background=dark
 
-nnoremap \\\scratch :set buftype=nofile<cr>
-nnoremap <Leader><Leader><Leader>errors oini_set('display_errors','1');<Esc>
+command Scratch set buftype=nofile
+command Errors normal oini_set('display_errors','1');<Esc>
+command PhpUnit normal iuse PHPUnit\Framework\TestCase;class FooTest extends TestCase{function test(){}}<Esc>
+command Json .!python3 -m json.tool
+" Precisa ter o módulo python xmlformatter instalado
+command Xml normal :s/\\"/"/ge<cr>:s/\\n//ge<cr>:.!xmlformat -<cr>
+
 nnoremap <C-n> :NERDTreeToggle<cr>
 map <Leader> <Plug>(easymotion-prefix)
-nnoremap \\\phpunit iuse PHPUnit\Framework\TestCase;class FooTest extends TestCase{function test(){}}<Esc>
 nnoremap \\\fun ifunction foo(){return;}<Esc>kke
 nnoremap \\\class iclass Foo{}<Esc>h
-nnoremap \\\json :.!python3 -m json.tool<cr>
-" Precisa ter o módulo python xmlformatter instalado
-nnoremap \\\xml :s/\\"/"/ge<cr>:s/\\n//ge<cr>:.!xmlformat -<cr>
 

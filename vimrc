@@ -71,9 +71,11 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
 call plug#end()
 
+let g:solarized_termcolors=256
 colorscheme solarized
 set background=dark
 
+<<<<<<< HEAD
 command Scratch set buftype=nofile
 command Errors normal oini_set('display_errors','1');<Esc>
 command PhpUnit normal iuse PHPUnit\Framework\TestCase;class FooTest extends TestCase{function test(){}}<Esc>
@@ -81,6 +83,11 @@ command Json .!python3 -m json.tool
 " Precisa ter o módulo python xmlformatter instalado
 command Xml normal :s/\\"/"/ge<cr>:s/\\n//ge<cr>:.!xmlformat -<cr>
 
+=======
+
+nnoremap \\\scratch :set buftype=nofile<cr>
+nnoremap <Leader><Leader><Leader>errors oini_set('display_errors','1');<Esc>
+>>>>>>> 53d5ee6401f69745fb708d2b29293258a66ee216
 nnoremap <C-n> :NERDTreeToggle<cr>
 map <Leader> <Plug>(easymotion-prefix)
 nnoremap \\\fun ifunction foo(){return;}<Esc>kke

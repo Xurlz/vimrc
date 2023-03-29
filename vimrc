@@ -71,7 +71,7 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-commentary'
 call plug#end()
 
-let g:solarized_termcolors=256
+call togglebg#map("<F5>")
 colorscheme solarized
 set background=dark
 

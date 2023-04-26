@@ -55,6 +55,7 @@ set mouse=a
 set encoding=utf-8
 
 call plug#begin()
+Plug 'NLKNguyen/pipe.vim'
 Plug 'TysonAndre/php-vim-syntax'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-obsession'

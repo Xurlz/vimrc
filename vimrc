@@ -63,7 +63,7 @@ Plug 'tpope/vim-obsession'
 Plug 'AndrewRadev/undoquit.vim', {'tag': 'v0.1.0'}
 Plug 'nicwest/vim-http',
 Plug 'zenbro/mirror.vim', {'tag': 'v1.3.0'}
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-scripts/ReplaceWithRegister'
 " Plug 'vim-vdebug/vdebug'
 " Plug 'preservim/vim-markdown'

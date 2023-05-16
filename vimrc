@@ -55,6 +55,7 @@ set mouse=a
 set encoding=utf-8
 
 call plug#begin()
+Plug 'arcticicestudio/nord-vim'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'NLKNguyen/pipe.vim'
 Plug 'TysonAndre/php-vim-syntax'

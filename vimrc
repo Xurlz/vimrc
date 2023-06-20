@@ -82,6 +82,7 @@ call togglebg#map("<F5>")
 colorscheme solarized
 set background=dark
 
+command -nargs=* Tests :Pipe ./vendor/bin/phpunit <args> tests/
 command Scratch set buftype=nofile
 command Errors normal oini_set('display_errors','1');<Esc>
 command PhpUnit normal iuse PHPUnit\Framework\TestCase;class FooTest extends TestCase{function test(){}}<Esc>

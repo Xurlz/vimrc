@@ -54,6 +54,10 @@ set scrolloff=1
 set mouse=a
 set encoding=utf-8
 
+function ReadDate()
+  execute 'normal :read !date +\%Y-\%m-\%d\ \%H:\%M' . "\r" | execute 'normal kJ' | execute 'normal 8e'
+endfunction
+
 call plug#begin()
 Plug 'arcticicestudio/nord-vim'
 Plug 'skywind3000/asyncrun.vim'
@@ -82,6 +86,7 @@ call togglebg#map("<F5>")
 colorscheme solarized
 set background=dark
 
+command ReadDate :call ReadDate
 command -nargs=* Tests :Pipe ./vendor/bin/phpunit <args> tests/
 command Scratch set buftype=nofile
 command Errors normal oini_set('display_errors','1');<Esc>

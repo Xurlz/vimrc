@@ -59,6 +59,7 @@ function ReadDate()
 endfunction
 
 call plug#begin()
+Plug 'tpope/vim-fugitive'
 Plug 'arcticicestudio/nord-vim'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'NLKNguyen/pipe.vim'

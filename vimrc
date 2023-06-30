@@ -59,7 +59,6 @@ function ReadDate()
 endfunction
 
 call plug#begin()
-Plug 'fholgado/minibufexpl.vim'
 Plug 'madox2/vim-ai'
 Plug 'tpope/vim-fugitive'
 Plug 'arcticicestudio/nord-vim'

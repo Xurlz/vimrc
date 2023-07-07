@@ -59,6 +59,7 @@ function ReadDate()
 endfunction
 
 call plug#begin()
+Plug 'vim-airline/vim-airline'
 Plug 'madox2/vim-ai'
 Plug 'tpope/vim-fugitive'
 Plug 'arcticicestudio/nord-vim'

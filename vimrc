@@ -103,3 +103,5 @@ map <Leader> <Plug>(easymotion-prefix)
 nnoremap \\\fun ifunction foo(){return;}<Esc>kke
 nnoremap \\\class iclass Foo{}<Esc>h
 
+runtime ftplugin/man.vim
+

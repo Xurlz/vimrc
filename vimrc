@@ -59,6 +59,7 @@ function ReadDate()
 endfunction
 
 call plug#begin()
+Plug 'chrisbra/vim-xml-runtime'
 Plug 'vim-airline/vim-airline'
 Plug 'madox2/vim-ai'
 Plug 'tpope/vim-fugitive'
@@ -96,8 +97,6 @@ command Scratch set buftype=nofile
 command Errors normal oini_set('display_errors','1');<Esc>
 command PhpUnit normal iuse PHPUnit\Framework\TestCase;class FooTest extends TestCase{function test(){}}<Esc>
 command Json .!python3 -m json.tool
-" Precisa ter o módulo python xmlformatter instalado
-command Xml normal :s/\\"/"/ge<cr>:s/\\n//ge<cr>:.!xmlformat -<cr>
 
 nnoremap <C-n> :NERDTreeToggle<cr>
 map <Leader> <Plug>(easymotion-prefix)

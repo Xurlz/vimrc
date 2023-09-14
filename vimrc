@@ -66,6 +66,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'chrisbra/vim-xml-runtime'
 Plug 'easymotion/vim-easymotion'
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nicwest/vim-http',
 Plug 'preservim/nerdtree'
 Plug 'skywind3000/asyncrun.vim'

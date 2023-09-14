@@ -59,28 +59,23 @@ function ReadDate()
 endfunction
 
 call plug#begin()
-Plug 'chrisbra/vim-xml-runtime'
-Plug 'vim-airline/vim-airline'
-Plug 'madox2/vim-ai'
-Plug 'tpope/vim-fugitive'
-Plug 'arcticicestudio/nord-vim'
-Plug 'skywind3000/asyncrun.vim'
+Plug 'AndrewRadev/undoquit.vim', {'tag': 'v0.1.0'}
 Plug 'NLKNguyen/pipe.vim'
 Plug 'TysonAndre/php-vim-syntax'
 Plug 'altercation/vim-colors-solarized'
-Plug 'tpope/vim-obsession'
-Plug 'AndrewRadev/undoquit.vim', {'tag': 'v0.1.0'}
-Plug 'nicwest/vim-http',
-Plug 'zenbro/mirror.vim', {'tag': 'v1.3.0'}
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'vim-scripts/ReplaceWithRegister'
-" Plug 'vim-vdebug/vdebug'
-" Plug 'preservim/vim-markdown'
+Plug 'chrisbra/vim-xml-runtime'
 Plug 'easymotion/vim-easymotion'
-Plug 'preservim/nerdtree'
-Plug 'tpope/vim-surround'
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'nicwest/vim-http',
+Plug 'preservim/nerdtree'
+Plug 'skywind3000/asyncrun.vim'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-obsession'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-unimpaired'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-scripts/ReplaceWithRegister'
 call plug#end()
 
 let g:vim_http_tempbuffer=1
@@ -102,6 +97,4 @@ nnoremap <C-n> :NERDTreeToggle<cr>
 map <Leader> <Plug>(easymotion-prefix)
 nnoremap \\\fun ifunction foo(){return;}<Esc>kke
 nnoremap \\\class iclass Foo{}<Esc>h
-
-runtime ftplugin/man.vim
 

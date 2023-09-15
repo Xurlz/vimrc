@@ -66,7 +66,6 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'chrisbra/vim-xml-runtime'
 Plug 'easymotion/vim-easymotion'
 Plug 'michaeljsmith/vim-indent-object'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nicwest/vim-http',
 Plug 'preservim/nerdtree'
 Plug 'skywind3000/asyncrun.vim'
@@ -77,6 +76,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/ReplaceWithRegister'
+Plug 'marlonfan/coc-phpls'
 call plug#end()
 
 let g:vim_http_tempbuffer=1
